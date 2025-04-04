@@ -13,7 +13,7 @@ function BlogShare({ data }) {
             href={`https://twitter.com/intent/tweet?text=${
               data.Title
             } by @Sai Reddy A
-            &url=blogs.saireddy.tech/blogs/${String(
+            &url=https://saireddyblogs.vercel.app/${String(
               data.Title.split(" ").join("-").toLowerCase()
             )}
             &hashtags=${data.Tags.split(" ")}`}
